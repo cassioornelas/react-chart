@@ -10,7 +10,7 @@ function App() {
   const [userData, setUserData] = useState({
     labels: UserData.map((data) => data.year),
     datasets: [{
-      label: "Lucro",
+      label: "Lucro em criptomoedas",
       data: UserData.map((data) => data.userGain),
       backgroundColor: ["grey", "green", "blue", "yellow", "brown"]
     }]
